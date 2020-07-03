@@ -18,7 +18,7 @@ As the below list, It had integrated packages for deploying and building restful
 ### Step.1 
 Clone the project. 
 ```git
-git clone https://github.com/gary60405/DAMP-starter-project.git
+$ git clone https://github.com/gary60405/DAMP-starter-project.git
 ```
 ### Step.2
 Launch the `cmd.exe` and type the text below for installing all the node_modules.
