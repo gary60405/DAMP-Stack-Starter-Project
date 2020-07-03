@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Finboard</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./../static/dist/favicon.ico">
+</head>
+
+<body>
+    <app-root></app-root>
+    <script src="{% static 'dist/runtime.js' %}" defer></script>
+    <script src="{% static 'dist/polyfills.js' %}" defer></script>
+    <script src="{% static 'dist/styles.js' %}" defer></script>
+    <script src="{% static 'dist/vendor.js' %}" defer></script>
+    <script src="{% static 'dist/main.js' %}" defer></script>
+</body>
+
+</html>
